@@ -1,2 +1,7 @@
 project:
     execute-dir: "project"
+
+execute: 
+  echo: false
+  message: false
+  warning: false

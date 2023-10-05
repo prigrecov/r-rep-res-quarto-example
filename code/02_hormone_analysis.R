@@ -36,7 +36,7 @@ for (columns in all_columns) {
   threshold <- mean(df_long$Value, na.rm = T) + 20*sd(df_long$Value, na.rm = T)
   
   #Print participant ID per excluded data point
-  print(df_long %>% filter(Value > threshold) %>% select(VPN))
+  #print(df_long %>% filter(Value > threshold) %>% select(VPN))
   
   #Drop missing values and filter by threshold
   df_long <- df_long %>%
